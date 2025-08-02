@@ -1,5 +1,5 @@
 Finance Tracker REST API:
-
+**Live Demo**: [Click here to access the deployed API]()
 This is a simple REST API built using Node.js, Express, and Firebase Realtime Database. It enables users to manage their Users, Expenses, and Income data.
 
 
@@ -13,8 +13,9 @@ This is a simple REST API built using Node.js, Express, and Firebase Realtime Da
 - nodemon (for development)
 
 
- Project Structure:
+### Project Structure:
 
+```text
 finance-api/
 ├── config/
 │   └── firebase.js
@@ -30,6 +31,7 @@ finance-api/
 ├── serviceAccountKey.json
 ├── app.js
 └── package.json
+```
 
 
 Setup Instructions:
@@ -50,7 +52,7 @@ npm install
 
 Create a `.env` file in the root:
 
-FIREBASE_DATABASE_URL=https://your-database-name.firebaseio.com
+FIREBASE_DATABASE_URL=https://finance-api-ass-default-rtdb.firebaseio.com
 PORT=3006
 
 4. Add Firebase Service Account
@@ -89,6 +91,18 @@ npx nodemon app.js
 - `PUT /income/:id` – Update income by ID.
 - `DELETE /income/:id` – Delete income by ID.
 
+##  API Data Snapshots
+
+###  Users
+![Users](./assets/users.png)
+
+###  Income
+![Income](./assets/income.png)
+
+###  Expenses
+![Expenses](./assets/expenses.png)
+
+
 
  Error Handling:
 
@@ -109,7 +123,6 @@ These must be stored in a `.env` file:
 | `FIREBASE_DATABASE_URL` | Your Firebase database URL |
 | `PORT` | The port your server runs on (e.g., 3006) |
 
----
 
 Dependencies:
 
@@ -140,7 +153,8 @@ This project can be deployed using any platform that supports Node.js like:
  Postman Collection:
 
 You can create a Postman collection with the following endpoints to test the API manually.
-
+###  Postman Collection
+[Click here to test the API via Postman](https://manoshree24-699974.postman.co/workspace/Manoshree's-Workspace~30e75051-9c62-4861-8aba-2a70bbbd544b/request/47244167-9142ac4f-4c6b-4248-9881-abe4677a17fd?action=share&source=copy-link&creator=47244167)
 
 Author:
 
