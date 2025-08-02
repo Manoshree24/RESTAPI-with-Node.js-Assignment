@@ -1,5 +1,4 @@
 Finance Tracker REST API:
-**Live Demo**: [Click here to access the deployed API]()
 This is a simple REST API built using Node.js, Express, and Firebase Realtime Database. It enables users to manage their Users, Expenses, and Income data.
 
 
